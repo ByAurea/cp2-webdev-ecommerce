@@ -10,6 +10,10 @@ export const router = createBrowserRouter([
         element: <Layout />,
         children: [
             {
+                index: true,
+                element: <Home />,
+            },
+            {
                 path:"carrinho",
                 element: <Carrinho />,
             },
@@ -17,10 +21,6 @@ export const router = createBrowserRouter([
                 path:"perfil",
                 element: <Perfil />
             },
-            {
-                path:"home",
-                element: <Home />
-            }
         ]
     }
 ])
