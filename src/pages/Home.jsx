@@ -5,8 +5,8 @@ import Section from "../components/Section";
 
 export default function Home() {
 
-  const [eletronics, SetEletronics] = useState ([])
-  const [jewlery, SetJewlery] = useState ([])
+  const [eletronics, setEletronics] = useState ([])
+  const [jewlery, setJewlery] = useState ([])
   const [mens_clothing, setMens_clothing] = useState ([])
 
     const API = import.meta.env.VITE_API_URL;
@@ -18,11 +18,11 @@ export default function Home() {
  
     fetch(`${API}/category/jewelery`)
       .then((response) => response.json())
-      .then((data) => setJewelery(data));
+      .then((data) => setJewlery(data));
      
     fetch(`${API}/category/men's%20clothing`)
       .then((response) => response.json())
-      .then((data) => setMen(data));
+      .then((data) => setMens_clothing(data));
   },[]);
  
   return (
