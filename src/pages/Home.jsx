@@ -27,9 +27,6 @@ export default function Home() {
  
   return (
     <div>
-      <h2 className="text-2xl text-center font-bold mb-4 mt-4">
-        Bem-vindo ao Fiap Commerce!
-      </h2>
  
       <Section titulo="Eletrônicos">
  
@@ -65,21 +62,4 @@ export default function Home() {
   );
 }
    
-
-
-
-    // <div>
-
-    //     <div className="text-center bg-black text-amber-300 text-4xl pt-8 pb-8">Eletrônicos</div>
-    //       <h1 className="text-xl font-medium text-center p-5">Produtos em destaque</h1>
-    //       <Card></Card>
-    //     <div className="text-center bg-black text-amber-300 text-4xl pt-8 pb-8">Joias</div>
-    //       <h1 className="text-xl font-medium text-center p-5">Produtos em destaque</h1>
-    //       <Card></Card>
-    //     <div className="text-center bg-black text-amber-300 text-4xl pt-8 pb-8">Roupas Masculinas</div>
-    //       <h1 className="text-xl font-medium text-center p-5">Produtos em destaque</h1>
-    //       <Card></Card>          
-
-    // </div>
- 
 
